@@ -68,18 +68,25 @@ def com_artigo(time, caixa_alta=True):
 
 
 def cena(time, fala_reporter, fala_jogador, extra=""):
-    """Monta o prompt no formato que o canal usa, pronto pro Flow."""
-    cores = time.get("cores", "uniforme da seleção")
+    """Monta o prompt no formato que o canal usa, pronto pro Flow.
+
+    Descrição da cena em inglês (o Flow aceita melhor e bloqueia menos),
+    falas sempre em português-BR. Sem nomes reais, sem marcas.
+    """
+    cores = time.get("cores", "his national team kit")
     return (
-        "Entrevista flash de pós-jogo em Copa do Mundo, transmissão de TV "
-        f"hiper-realista. Jogador de futebol suado, {cores}, em frente a um "
-        "microfone de repórter, torcida desfocada ao fundo no estádio lotado, "
-        "iluminação noturna de estádio. "
-        f'A repórter pergunta: "{fala_reporter}" '
-        f'O jogador responde com total seriedade, sem sorrir: "{fala_jogador}" '
+        "Hyper-realistic TV broadcast footage of a post-match flash interview "
+        "at a major international football tournament. A sweaty football "
+        f"player wearing a {cores}, standing in front of a reporter's "
+        "microphone, blurred cheering crowd in a packed stadium under night "
+        "floodlights in the background. "
+        f'The reporter asks in Brazilian Portuguese: "{fala_reporter}" '
+        "The player answers completely deadpan, without smiling, in Brazilian "
+        f'Portuguese: "{fala_jogador}" '
         f"{extra}"
-        "Áudio com ambiente de estádio. Câmera de transmissão esportiva, plano "
-        "médio, leve movimento de handheld. Diálogo em português brasileiro."
+        "Stadium crowd ambience. Sports broadcast camera, medium shot, slight "
+        "handheld movement. IMPORTANT: all spoken dialogue must be in "
+        "Brazilian Portuguese with natural native pronunciation."
     )
 
 
@@ -101,18 +108,20 @@ def prompts_pos_jogo(vencedor, perdedor, placar, rng):
         f"JOGADOR EXPLICA DERROTA {de(perdedor).upper()} {perdedor['pt'].upper()}",
         cena(perdedor, rng.choice(PERGUNTAS_DERROTA),
              rng.choice(DESCULPAS),
-             "O jogador está visivelmente abalado, com a torcida adversária comemorando atrás. ")))
+             "The player looks visibly shaken while the rival crowd celebrates "
+             "behind him. ")))
 
-    meme_venc = rng.choice(vencedor["memes"])
     blocos.append(bloco(
         f"TÉCNICO REVELA SEGREDO ({placar}) 😳",
-        "Coletiva de imprensa de Copa do Mundo, hiper-realista. Técnico de "
-        f"terno da seleção {vencedor['pt']}, sentado atrás do microfone com o "
-        "painel de patrocinadores da Copa ao fundo, flashes de câmera. "
-        'Jornalista pergunta: "Qual foi a chave do jogo?" O técnico responde '
-        f'sério: "Simples. Todo mundo sabe que {meme_perd}. Nós só lembramos '
-        'eles disso no vestiário." Risadas abafadas dos jornalistas. Áudio de '
-        "sala de coletiva. Diálogo em português brasileiro."))
+        "Hyper-realistic press conference at a major international football "
+        "tournament. A football head coach in a suit, sitting behind a "
+        "microphone with a generic sponsor backdrop, camera flashes going off. "
+        'A journalist asks in Brazilian Portuguese: "Qual foi a chave do jogo?" '
+        "The coach answers deadpan in Brazilian Portuguese: "
+        f'"Simples. Todo mundo sabe que {meme_perd}. Nós só lembramos eles '
+        'disso no vestiário." Muffled laughter from the journalists. Press '
+        "room audio. IMPORTANT: all spoken dialogue must be in Brazilian "
+        "Portuguese with natural native pronunciation."))
     return blocos
 
 
@@ -127,30 +136,38 @@ def prompts_pre_jogo(casa, fora, rng):
         cena(falante, rng.choice(PERGUNTAS_PRE),
              f"Estudar o quê? {meme_alvo.capitalize()}. Eu vim mais pelo turismo, "
              "se eu for sincero.",
-             "É uma zona mista pré-jogo, jogador de agasalho de treino. ")))
+             "It is a pre-match mixed zone, the player wears a training "
+             "tracksuit. ")))
 
     blocos.append(bloco(
         f"TORCEDOR JÁ GARANTIU O RESULTADO 😂",
-        "Entrevista de rua em dia de jogo da Copa do Mundo, hiper-realista. "
-        f"Torcedor caracterizado da seleção {falante['pt']}, rosto pintado, "
-        "em frente ao estádio lotado de torcedores. Repórter pergunta: "
-        f'"Qual o placar de hoje?" O torcedor responde com confiança absoluta: '
-        f'"Já ganhou. {meme_alvo.capitalize()}, anota aí." E vai embora sem '
-        "esperar a próxima pergunta. Áudio de multidão. Diálogo em português "
-        "brasileiro."))
+        "Hyper-realistic street interview on matchday outside a packed "
+        "football stadium during a major international tournament. A "
+        f"passionate football fan wearing a {falante.get('cores', 'team jersey')} "
+        "with his face painted, holding nothing back. The reporter asks in "
+        'Brazilian Portuguese: "Qual o placar de hoje?" The fan answers with '
+        "absolute confidence in Brazilian Portuguese: "
+        f'"Já ganhou. {meme_alvo.capitalize()}, anota aí." Then he walks away '
+        "without waiting for the next question. Crowd audio. IMPORTANT: all "
+        "spoken dialogue must be in Brazilian Portuguese with natural native "
+        "pronunciation."))
     return blocos
 
 
 def prompt_viral(descricao):
     return bloco(
         "O VIRAL DO DIA 🔥 (adapte a manchete)",
-        "Entrevista flash de pós-jogo em Copa do Mundo, transmissão de TV "
-        "hiper-realista, estádio lotado ao fundo. Use o momento viral abaixo "
-        "como tema central — o entrevistado trata o absurdo com total "
-        "seriedade, como se fosse a coisa mais normal do mundo:\n"
-        f"MOMENTO VIRAL: {descricao}\n"
-        "Diálogo em português brasileiro, áudio de estádio, câmera de "
-        "transmissão esportiva, plano médio.")
+        "Hyper-realistic TV broadcast footage of a post-match flash interview "
+        "at a major international football tournament, packed stadium in the "
+        "background. Build the scene around the viral moment described below "
+        "— the interviewee treats the absurd situation with complete "
+        "seriousness, as if it were the most normal thing in the world. "
+        "Do NOT mention real names or brands; describe people generically "
+        "(e.g. 'a Brazilian football referee'):\n"
+        f"VIRAL MOMENT: {descricao}\n"
+        "Stadium ambience, sports broadcast camera, medium shot. IMPORTANT: "
+        "all spoken dialogue must be in Brazilian Portuguese with natural "
+        "native pronunciation.")
 
 
 # ---------------------------------------------------------------- fixtures
@@ -214,6 +231,8 @@ def main():
     linhas.append("Lembrete do formato: gerar no Flow (Veo 3, 9:16 se disponível, senão "
                   "cortar na edição) → adicionar manchete preta em caixa alta no topo, "
                   "legenda amarela com o diálogo e 3 emojis 😂 embaixo (CapCut).")
+    linhas.append("Os prompts vêm em inglês (o Flow bloqueia menos), mas as falas saem "
+                  "em português-BR. Sem nomes reais nem marcas, pra não violar diretrizes.")
     linhas.append("=" * 60)
 
     de_ontem, fonte_ontem = jogos_do_dia(ontem)

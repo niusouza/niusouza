@@ -1,74 +1,74 @@
 {
   "A": [
-    {"pt": "México", "art": "o", "en": "Mexico", "cores": "camisa verde, calção branco", "memes": ["a maldição do quinto jogo", "prometeram que dessa vez passam das oitavas", "queriam resolver o jogo na base da lucha libre"]},
-    {"pt": "África do Sul", "art": "a", "en": "South Africa", "cores": "camisa amarela com detalhes verdes", "memes": ["trouxeram as vuvuzelas de 2010 na mala", "ainda usam o caderno de inglês do Joel Santana"]},
-    {"pt": "Coreia do Sul", "art": "a", "en": "South Korea", "cores": "camisa vermelha", "memes": ["treinaram a comemoração como coreografia de k-pop", "o técnico passa as instruções em forma de dorama"]},
-    {"pt": "República Tcheca", "art": "a", "en": "Czechia", "cores": "camisa vermelha com detalhes brancos", "memes": ["ninguém consegue pronunciar o nome dos jogadores", "vieram mais pela cerveja do que pelo futebol"]}
+    {"pt": "México", "art": "o", "en": "Mexico", "cores": "green jersey, white shorts", "memes": ["a maldição do quinto jogo", "prometeram que dessa vez passam das oitavas", "queriam resolver o jogo na base da lucha libre"]},
+    {"pt": "África do Sul", "art": "a", "en": "South Africa", "cores": "yellow jersey with green details", "memes": ["trouxeram as vuvuzelas de 2010 na mala", "ainda usam o caderno de inglês do Joel Santana"]},
+    {"pt": "Coreia do Sul", "art": "a", "en": "South Korea", "cores": "red jersey", "memes": ["treinaram a comemoração como coreografia de k-pop", "o técnico passa as instruções em forma de dorama"]},
+    {"pt": "República Tcheca", "art": "a", "en": "Czechia", "cores": "red jersey with white details", "memes": ["ninguém consegue pronunciar o nome dos jogadores", "vieram mais pela cerveja do que pelo futebol"]}
   ],
   "B": [
-    {"pt": "Canadá", "art": "o", "en": "Canada", "cores": "camisa vermelha com folha de bordo", "memes": ["pedem desculpa até quando sofrem falta", "educados demais pra fazer falta"]},
-    {"pt": "Bósnia e Herzegovina", "art": "a", "en": "Bosnia and Herzegovina", "cores": "camisa azul com detalhes amarelos", "memes": ["ninguém sabe apontar o país no mapa", "o nome do país não cabe no placar"]},
-    {"pt": "Catar", "art": "o", "en": "Qatar", "cores": "camisa bordô", "memes": ["pediram ar condicionado no meio do campo", "queriam comprar o estádio no intervalo"]},
-    {"pt": "Suíça", "art": "a", "en": "Switzerland", "cores": "camisa vermelha com cruz branca", "memes": ["reclamaram que o jogo começou 2 minutos atrasado", "ficaram neutros até na hora do pênalti", "trouxeram chocolate pra subornar o juiz"]}
+    {"pt": "Canadá", "art": "o", "en": "Canada", "cores": "red jersey with a maple leaf", "memes": ["pedem desculpa até quando sofrem falta", "educados demais pra fazer falta"]},
+    {"pt": "Bósnia e Herzegovina", "art": "a", "en": "Bosnia and Herzegovina", "cores": "blue jersey with yellow details", "memes": ["ninguém sabe apontar o país no mapa", "o nome do país não cabe no placar"]},
+    {"pt": "Catar", "art": "o", "en": "Qatar", "cores": "maroon jersey", "memes": ["pediram ar condicionado no meio do campo", "queriam comprar o estádio no intervalo"]},
+    {"pt": "Suíça", "art": "a", "en": "Switzerland", "cores": "red jersey with a white cross", "memes": ["reclamaram que o jogo começou 2 minutos atrasado", "ficaram neutros até na hora do pênalti", "trouxeram chocolate pra subornar o juiz"]}
   ],
   "C": [
-    {"pt": "Brasil", "art": "o", "en": "Brazil", "cores": "camisa amarela, calção azul", "memes": ["o hexa que não vem desde 2002", "o churrasco já tava marcado pra final", "Ancelotti só levanta a sobrancelha"]},
-    {"pt": "Marrocos", "art": "o", "en": "Morocco", "cores": "camisa vermelha com detalhes verdes", "memes": ["acharam que ainda era a semifinal de 2022", "vieram com o mapa do deserto pra se esconder da zaga"]},
-    {"pt": "Haiti", "art": "o", "en": "Haiti", "cores": "camisa azul e vermelha", "memes": ["a zebra que ninguém viu chegar", "primeira Copa e já acham que é amistoso de praia"]},
-    {"pt": "Escócia", "art": "a", "en": "Scotland", "cores": "camisa azul escura", "memes": ["entraram de kilt no segundo tempo", "a gaita de fole tocou mais que o ataque"]}
+    {"pt": "Brasil", "art": "o", "en": "Brazil", "cores": "yellow jersey, blue shorts", "memes": ["o hexa que não vem desde 2002", "o churrasco já tava marcado pra final", "Ancelotti só levanta a sobrancelha"]},
+    {"pt": "Marrocos", "art": "o", "en": "Morocco", "cores": "red jersey with green details", "memes": ["acharam que ainda era a semifinal de 2022", "vieram com o mapa do deserto pra se esconder da zaga"]},
+    {"pt": "Haiti", "art": "o", "en": "Haiti", "cores": "blue and red jersey", "memes": ["a zebra que ninguém viu chegar", "primeira Copa e já acham que é amistoso de praia"]},
+    {"pt": "Escócia", "art": "a", "en": "Scotland", "cores": "dark blue jersey", "memes": ["entraram de kilt no segundo tempo", "a gaita de fole tocou mais que o ataque"]}
   ],
   "D": [
-    {"pt": "Estados Unidos", "art": "os", "en": "USA", "cores": "camisa branca com detalhes azuis", "memes": ["ainda chamam de soccer", "pediram pra dividir o jogo em 4 quartos", "queriam pedir timeout aos 40 do segundo tempo"]},
-    {"pt": "Paraguai", "art": "o", "en": "Paraguay", "cores": "camisa listrada vermelha e branca", "memes": ["pararam o jogo pra tomar tereré", "a muralha paraguaia veio com garra dobrada"]},
-    {"pt": "Austrália", "art": "a", "en": "Australia", "cores": "camisa amarela com detalhes verdes", "memes": ["trouxeram um canguru de mascote no banco", "no país deles até o futebol quer te matar"]},
-    {"pt": "Turquia", "art": "a", "en": "Türkiye", "cores": "camisa vermelha com lua e estrela", "memes": ["o lateral serviu chá no escanteio", "queriam vender kebab no intervalo"]}
+    {"pt": "Estados Unidos", "art": "os", "en": "USA", "cores": "white jersey with blue details", "memes": ["ainda chamam de soccer", "pediram pra dividir o jogo em 4 quartos", "queriam pedir timeout aos 40 do segundo tempo"]},
+    {"pt": "Paraguai", "art": "o", "en": "Paraguay", "cores": "red and white striped jersey", "memes": ["pararam o jogo pra tomar tereré", "a muralha paraguaia veio com garra dobrada"]},
+    {"pt": "Austrália", "art": "a", "en": "Australia", "cores": "yellow jersey with green details", "memes": ["trouxeram um canguru de mascote no banco", "no país deles até o futebol quer te matar"]},
+    {"pt": "Turquia", "art": "a", "en": "Türkiye", "cores": "red jersey with a crescent and star", "memes": ["o lateral serviu chá no escanteio", "queriam vender kebab no intervalo"]}
   ],
   "E": [
-    {"pt": "Alemanha", "art": "a", "en": "Germany", "cores": "camisa branca com detalhes pretos", "memes": ["7 a 1 nunca será esquecido", "chegaram no estádio 3 horas antes por pontualidade", "a máquina alemã veio com manual de instruções"]},
-    {"pt": "Curaçau", "art": "", "en": "Curaçao", "cores": "camisa azul", "memes": ["o menor país da história da Copa", "o brasileiro só conhece de pacote de viagem"]},
-    {"pt": "Costa do Marfim", "art": "a", "en": "Ivory Coast", "cores": "camisa laranja", "memes": ["invocaram o espírito do Drogba", "o nome do país parece cardápio de sorveteria"]},
-    {"pt": "Equador", "art": "o", "en": "Ecuador", "cores": "camisa amarela com detalhes azuis", "memes": ["reclamaram que o estádio não tem altitude", "sem os 2.800 metros de Quito o time não respira"]}
+    {"pt": "Alemanha", "art": "a", "en": "Germany", "cores": "white jersey with black details", "memes": ["7 a 1 nunca será esquecido", "chegaram no estádio 3 horas antes por pontualidade", "a máquina alemã veio com manual de instruções"]},
+    {"pt": "Curaçau", "art": "", "en": "Curaçao", "cores": "blue jersey", "memes": ["o menor país da história da Copa", "o brasileiro só conhece de pacote de viagem"]},
+    {"pt": "Costa do Marfim", "art": "a", "en": "Ivory Coast", "cores": "orange jersey", "memes": ["invocaram o espírito do Drogba", "o nome do país parece cardápio de sorveteria"]},
+    {"pt": "Equador", "art": "o", "en": "Ecuador", "cores": "yellow jersey with blue details", "memes": ["reclamaram que o estádio não tem altitude", "sem os 2.800 metros de Quito o time não respira"]}
   ],
   "F": [
-    {"pt": "Holanda", "art": "a", "en": "Netherlands", "cores": "camisa laranja", "memes": ["vieram de bicicleta pro estádio", "a laranja mecânica tá precisando de revisão", "reclamaram que o campo não é plano o suficiente"]},
-    {"pt": "Japão", "art": "o", "en": "Japan", "cores": "camisa azul", "memes": ["acharam que o Tsubasa ia ser convocado", "perderam mas deixaram o vestiário impecável", "pediram desculpa em formato de reverência"]},
-    {"pt": "Suécia", "art": "a", "en": "Sweden", "cores": "camisa amarela com detalhes azuis", "memes": ["o esquema tático veio desmontado igual móvel de loja", "tentaram montar a barreira seguindo o manual"]},
-    {"pt": "Tunísia", "art": "a", "en": "Tunisia", "cores": "camisa vermelha", "memes": ["treinaram no deserto e estranharam a grama", "confundiram o estádio com um oásis"]}
+    {"pt": "Holanda", "art": "a", "en": "Netherlands", "cores": "orange jersey", "memes": ["vieram de bicicleta pro estádio", "a laranja mecânica tá precisando de revisão", "reclamaram que o campo não é plano o suficiente"]},
+    {"pt": "Japão", "art": "o", "en": "Japan", "cores": "blue jersey", "memes": ["acharam que o Tsubasa ia ser convocado", "perderam mas deixaram o vestiário impecável", "pediram desculpa em formato de reverência"]},
+    {"pt": "Suécia", "art": "a", "en": "Sweden", "cores": "yellow jersey with blue details", "memes": ["o esquema tático veio desmontado igual móvel de loja", "tentaram montar a barreira seguindo o manual"]},
+    {"pt": "Tunísia", "art": "a", "en": "Tunisia", "cores": "red jersey", "memes": ["treinaram no deserto e estranharam a grama", "confundiram o estádio com um oásis"]}
   ],
   "G": [
-    {"pt": "Bélgica", "art": "a", "en": "Belgium", "cores": "camisa vermelha", "memes": ["a geração dourada virou geração aposentada", "trouxeram waffle pro lanche do intervalo"]},
-    {"pt": "Egito", "art": "o", "en": "Egypt", "cores": "camisa vermelha", "memes": ["o esquema tático é mais antigo que as pirâmides", "invocaram os faraós no vestiário"]},
-    {"pt": "Irã", "art": "o", "en": "Iran", "cores": "camisa branca com detalhes vermelhos", "memes": ["o ônibus na frente do gol veio com motorista e tudo"]},
-    {"pt": "Nova Zelândia", "art": "a", "en": "New Zealand", "cores": "camisa branca", "memes": ["tem mais ovelha que torcedor", "acharam que o estádio era cenário de Senhor dos Anéis"]}
+    {"pt": "Bélgica", "art": "a", "en": "Belgium", "cores": "red jersey", "memes": ["a geração dourada virou geração aposentada", "trouxeram waffle pro lanche do intervalo"]},
+    {"pt": "Egito", "art": "o", "en": "Egypt", "cores": "red jersey", "memes": ["o esquema tático é mais antigo que as pirâmides", "invocaram os faraós no vestiário"]},
+    {"pt": "Irã", "art": "o", "en": "Iran", "cores": "white jersey with red details", "memes": ["o ônibus na frente do gol veio com motorista e tudo"]},
+    {"pt": "Nova Zelândia", "art": "a", "en": "New Zealand", "cores": "white jersey", "memes": ["tem mais ovelha que torcedor", "acharam que o estádio era cenário de Senhor dos Anéis"]}
   ],
   "H": [
-    {"pt": "Espanha", "art": "a", "en": "Spain", "cores": "camisa vermelha", "memes": ["o tiki-taka com 900 passes e zero chute a gol", "pararam o jogo pra fazer a siesta"]},
-    {"pt": "Cabo Verde", "art": "o", "en": "Cape Verde", "cores": "camisa azul", "memes": ["os primos que falam português e roubaram o coração do Brasil", "primeira Copa e já chegaram cantando morna"]},
-    {"pt": "Arábia Saudita", "art": "a", "en": "Saudi Arabia", "cores": "camisa verde", "memes": ["tentaram contratar o adversário no intervalo", "ofereceram um contrato pro juiz na hora do pênalti"]},
-    {"pt": "Uruguai", "art": "o", "en": "Uruguay", "cores": "camisa celeste", "memes": ["a garra charrúa veio com dentadura e tudo", "ainda vivem do Maracanazo de 1950"]}
+    {"pt": "Espanha", "art": "a", "en": "Spain", "cores": "red jersey", "memes": ["o tiki-taka com 900 passes e zero chute a gol", "pararam o jogo pra fazer a siesta"]},
+    {"pt": "Cabo Verde", "art": "o", "en": "Cape Verde", "cores": "blue jersey", "memes": ["os primos que falam português e roubaram o coração do Brasil", "primeira Copa e já chegaram cantando morna"]},
+    {"pt": "Arábia Saudita", "art": "a", "en": "Saudi Arabia", "cores": "green jersey", "memes": ["tentaram contratar o adversário no intervalo", "ofereceram um contrato pro juiz na hora do pênalti"]},
+    {"pt": "Uruguai", "art": "o", "en": "Uruguay", "cores": "sky blue jersey", "memes": ["a garra charrúa veio com dentadura e tudo", "ainda vivem do Maracanazo de 1950"]}
   ],
   "I": [
-    {"pt": "França", "art": "a", "en": "France", "cores": "camisa azul", "memes": ["fizeram greve no meio do segundo tempo", "o ataque saiu pra comprar baguete e não voltou"]},
-    {"pt": "Senegal", "art": "o", "en": "Senegal", "cores": "camisa verde e branca", "memes": ["sonham em repetir a zebra histórica de 2002"]},
-    {"pt": "Iraque", "art": "o", "en": "Iraq", "cores": "camisa verde e branca", "memes": ["a zebra do deserto que ninguém colocou no bolão"]},
-    {"pt": "Noruega", "art": "a", "en": "Norway", "cores": "camisa vermelha com detalhes azuis", "memes": ["o Haaland é um robô e ninguém me convence do contrário", "reclamaram do calor com 15 graus"]}
+    {"pt": "França", "art": "a", "en": "France", "cores": "blue jersey", "memes": ["fizeram greve no meio do segundo tempo", "o ataque saiu pra comprar baguete e não voltou"]},
+    {"pt": "Senegal", "art": "o", "en": "Senegal", "cores": "green and white jersey", "memes": ["sonham em repetir a zebra histórica de 2002"]},
+    {"pt": "Iraque", "art": "o", "en": "Iraq", "cores": "green and white jersey", "memes": ["a zebra do deserto que ninguém colocou no bolão"]},
+    {"pt": "Noruega", "art": "a", "en": "Norway", "cores": "red jersey with blue details", "memes": ["o Haaland é um robô e ninguém me convence do contrário", "reclamaram do calor com 15 graus"]}
   ],
   "J": [
-    {"pt": "Argentina", "art": "a", "en": "Argentina", "cores": "camisa celeste e branca", "memes": ["os hermanos não calam a boca desde 2022", "o Messi veio pro último último baile de novo", "já compuseram três músicas antes do primeiro jogo"]},
-    {"pt": "Argélia", "art": "a", "en": "Algeria", "cores": "camisa branca com detalhes verdes", "memes": ["a raposa do deserto armou a emboscada"]},
-    {"pt": "Áustria", "art": "a", "en": "Austria", "cores": "camisa vermelha e branca", "memes": ["metade do estádio achou que era a Austrália", "vieram tocando Mozart no aquecimento"]},
-    {"pt": "Jordânia", "art": "a", "en": "Jordan", "cores": "camisa vermelha e branca", "memes": ["primeira Copa e o técnico ainda usa mapa de papiro"]}
+    {"pt": "Argentina", "art": "a", "en": "Argentina", "cores": "sky blue and white striped jersey", "memes": ["os hermanos não calam a boca desde 2022", "o Messi veio pro último último baile de novo", "já compuseram três músicas antes do primeiro jogo"]},
+    {"pt": "Argélia", "art": "a", "en": "Algeria", "cores": "white jersey with green details", "memes": ["a raposa do deserto armou a emboscada"]},
+    {"pt": "Áustria", "art": "a", "en": "Austria", "cores": "red and white jersey", "memes": ["metade do estádio achou que era a Austrália", "vieram tocando Mozart no aquecimento"]},
+    {"pt": "Jordânia", "art": "a", "en": "Jordan", "cores": "red and white jersey", "memes": ["primeira Copa e o técnico ainda usa mapa de papiro"]}
   ],
   "K": [
-    {"pt": "Portugal", "art": "", "en": "Portugal", "cores": "camisa vermelha com detalhes verdes", "memes": ["o patrão CR7 com 41 anos ainda grita SIUUU", "prometeram pastel de nata se ganharem", "os primos que inventaram a língua mas não o futebol"]},
-    {"pt": "RD Congo", "art": "a", "en": "DR Congo", "cores": "camisa azul com detalhes vermelhos", "memes": ["a zebra africana que ninguém estudou"]},
-    {"pt": "Uzbequistão", "art": "o", "en": "Uzbekistan", "cores": "camisa branca com detalhes azuis", "memes": ["primeira Copa e ninguém sabe onde fica o país", "o nome do país vale 80 pontos no Scrabble"]},
-    {"pt": "Colômbia", "art": "a", "en": "Colombia", "cores": "camisa amarela", "memes": ["prometeram dançar igual em 2014 se fizerem gol", "trouxeram café pro time não dormir na marcação"]}
+    {"pt": "Portugal", "art": "", "en": "Portugal", "cores": "red jersey with green details", "memes": ["o patrão CR7 com 41 anos ainda grita SIUUU", "prometeram pastel de nata se ganharem", "os primos que inventaram a língua mas não o futebol"]},
+    {"pt": "RD Congo", "art": "a", "en": "DR Congo", "cores": "blue jersey with red details", "memes": ["a zebra africana que ninguém estudou"]},
+    {"pt": "Uzbequistão", "art": "o", "en": "Uzbekistan", "cores": "white jersey with blue details", "memes": ["primeira Copa e ninguém sabe onde fica o país", "o nome do país vale 80 pontos no Scrabble"]},
+    {"pt": "Colômbia", "art": "a", "en": "Colombia", "cores": "yellow jersey", "memes": ["prometeram dançar igual em 2014 se fizerem gol", "trouxeram café pro time não dormir na marcação"]}
   ],
   "L": [
-    {"pt": "Inglaterra", "art": "a", "en": "England", "cores": "camisa branca", "memes": ["it's coming home há 60 anos e nunca chega", "pararam o jogo às 17h pro chá", "treinaram pênalti a vida toda e ainda assim..."]},
-    {"pt": "Croácia", "art": "a", "en": "Croatia", "cores": "camisa quadriculada vermelha e branca", "memes": ["o Modric eterno, aposenta não senhor", "a camisa parece toalha de piquenique"]},
-    {"pt": "Gana", "art": "", "en": "Ghana", "cores": "camisa branca com detalhes pretas", "memes": ["se perderem, saem carregados pela dança do caixão", "a torcida já ensaiou o meme do caixão no setor 12"]},
-    {"pt": "Panamá", "art": "o", "en": "Panama", "cores": "camisa vermelha", "memes": ["queriam abrir um canal no meio da defesa", "confundiram escanteio com chapéu panamá"]}
+    {"pt": "Inglaterra", "art": "a", "en": "England", "cores": "white jersey", "memes": ["it's coming home há 60 anos e nunca chega", "pararam o jogo às 17h pro chá", "treinaram pênalti a vida toda e ainda assim..."]},
+    {"pt": "Croácia", "art": "a", "en": "Croatia", "cores": "red and white checkered jersey", "memes": ["o Modric eterno, aposenta não senhor", "a camisa parece toalha de piquenique"]},
+    {"pt": "Gana", "art": "", "en": "Ghana", "cores": "white jersey with black details", "memes": ["se perderem, saem carregados pela dança do caixão", "a torcida já ensaiou o meme do caixão no setor 12"]},
+    {"pt": "Panamá", "art": "o", "en": "Panama", "cores": "red jersey", "memes": ["queriam abrir um canal no meio da defesa", "confundiram escanteio com chapéu panamá"]}
   ]
 }
