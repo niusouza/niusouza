@@ -54,6 +54,15 @@ PERGUNTAS_DERROTA = ["O que aconteceu?", "Como explicar essa derrota?", "O que d
 PERGUNTAS_VITORIA = ["Qual foi o segredo da vitória?", "O que achou do jogo?", "Como o time se preparou?"]
 PERGUNTAS_PRE = ["Como o time está pra estreia?", "O que esperar do jogo de hoje?", "Estudaram o adversário?"]
 
+# Regra anexada a todo prompt: nada de marcas, escudos ou logos reais.
+SEM_MARCAS = (
+    "No real logos, crests, federation badges, brand marks or sponsor names "
+    "anywhere in the scene: the jersey only resembles the real kit but is "
+    "unbranded with a plain chest, the reporter's microphone has a blank flag "
+    "with no logo, and any stadium advertising boards are generic solid-color "
+    "panels. "
+)
+
 
 def de(time):
     """Contração 'de' + artigo do país: do Brasil, da Suíça, dos EUA, de Portugal."""
@@ -77,13 +86,14 @@ def cena(time, fala_reporter, fala_jogador, extra=""):
     return (
         "Hyper-realistic TV broadcast footage of a post-match flash interview "
         "at a major international football tournament. A sweaty football "
-        f"player wearing a {cores}, standing in front of a reporter's "
-        "microphone, blurred cheering crowd in a packed stadium under night "
-        "floodlights in the background. "
+        f"player wearing an unbranded {cores}, standing in front of a "
+        "reporter's microphone with a blank flag, blurred cheering crowd in a "
+        "packed stadium under night floodlights in the background. "
         f'The reporter asks in Brazilian Portuguese: "{fala_reporter}" '
         "The player answers completely deadpan, without smiling, in Brazilian "
         f'Portuguese: "{fala_jogador}" '
         f"{extra}"
+        f"{SEM_MARCAS}"
         "Stadium crowd ambience. Sports broadcast camera, medium shot, slight "
         "handheld movement. IMPORTANT: all spoken dialogue must be in "
         "Brazilian Portuguese with natural native pronunciation."
@@ -114,14 +124,15 @@ def prompts_pos_jogo(vencedor, perdedor, placar, rng):
     blocos.append(bloco(
         f"TÉCNICO REVELA SEGREDO ({placar}) 😳",
         "Hyper-realistic press conference at a major international football "
-        "tournament. A football head coach in a suit, sitting behind a "
-        "microphone with a generic sponsor backdrop, camera flashes going off. "
+        "tournament. A football head coach in a suit, sitting behind a plain "
+        "logo-free microphone, with a solid-color backdrop without any logos "
+        "behind him, camera flashes going off. "
         'A journalist asks in Brazilian Portuguese: "Qual foi a chave do jogo?" '
         "The coach answers deadpan in Brazilian Portuguese: "
         f'"Simples. Todo mundo sabe que {meme_perd}. Nós só lembramos eles '
         'disso no vestiário." Muffled laughter from the journalists. Press '
-        "room audio. IMPORTANT: all spoken dialogue must be in Brazilian "
-        "Portuguese with natural native pronunciation."))
+        f"room audio. {SEM_MARCAS}IMPORTANT: all spoken dialogue must be in "
+        "Brazilian Portuguese with natural native pronunciation."))
     return blocos
 
 
@@ -143,14 +154,15 @@ def prompts_pre_jogo(casa, fora, rng):
         f"TORCEDOR JÁ GARANTIU O RESULTADO 😂",
         "Hyper-realistic street interview on matchday outside a packed "
         "football stadium during a major international tournament. A "
-        f"passionate football fan wearing a {falante.get('cores', 'team jersey')} "
-        "with his face painted, holding nothing back. The reporter asks in "
-        'Brazilian Portuguese: "Qual o placar de hoje?" The fan answers with '
-        "absolute confidence in Brazilian Portuguese: "
+        "passionate football fan wearing an unbranded "
+        f"{falante.get('cores', 'team jersey')} with his face painted, holding "
+        "nothing back, in front of a reporter's microphone with a blank flag. "
+        'The reporter asks in Brazilian Portuguese: "Qual o placar de hoje?" '
+        "The fan answers with absolute confidence in Brazilian Portuguese: "
         f'"Já ganhou. {meme_alvo.capitalize()}, anota aí." Then he walks away '
-        "without waiting for the next question. Crowd audio. IMPORTANT: all "
-        "spoken dialogue must be in Brazilian Portuguese with natural native "
-        "pronunciation."))
+        f"without waiting for the next question. Crowd audio. {SEM_MARCAS}"
+        "IMPORTANT: all spoken dialogue must be in Brazilian Portuguese with "
+        "natural native pronunciation."))
     return blocos
 
 
@@ -165,9 +177,9 @@ def prompt_viral(descricao):
         "Do NOT mention real names or brands; describe people generically "
         "(e.g. 'a Brazilian football referee'):\n"
         f"VIRAL MOMENT: {descricao}\n"
-        "Stadium ambience, sports broadcast camera, medium shot. IMPORTANT: "
-        "all spoken dialogue must be in Brazilian Portuguese with natural "
-        "native pronunciation.")
+        f"Stadium ambience, sports broadcast camera, medium shot. {SEM_MARCAS}"
+        "IMPORTANT: all spoken dialogue must be in Brazilian Portuguese with "
+        "natural native pronunciation.")
 
 
 # ---------------------------------------------------------------- fixtures
@@ -232,7 +244,8 @@ def main():
                   "cortar na edição) → adicionar manchete preta em caixa alta no topo, "
                   "legenda amarela com o diálogo e 3 emojis 😂 embaixo (CapCut).")
     linhas.append("Os prompts vêm em inglês (o Flow bloqueia menos), mas as falas saem "
-                  "em português-BR. Sem nomes reais nem marcas, pra não violar diretrizes.")
+                  "em português-BR. Sem nomes reais, marcas, escudos ou logos: camisas "
+                  "só parecidas com as reais e microfone de canopla lisa.")
     linhas.append("=" * 60)
 
     de_ontem, fonte_ontem = jogos_do_dia(ontem)
