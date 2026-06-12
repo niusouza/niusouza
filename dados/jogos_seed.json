@@ -1,0 +1,13 @@
+{
+  "_comentario": "Tabela reserva usada quando a API da ESPN estiver fora do ar. Datas no fuso de Brasília. A API em tempo real é sempre a fonte preferida.",
+  "jogos": [
+    {"data": "2026-06-11", "casa": "México", "fora": "África do Sul", "grupo": "A"},
+    {"data": "2026-06-12", "casa": "Coreia do Sul", "fora": "República Tcheca", "grupo": "A"},
+    {"data": "2026-06-12", "casa": "Canadá", "fora": "Bósnia e Herzegovina", "grupo": "B"},
+    {"data": "2026-06-12", "casa": "Estados Unidos", "fora": "Paraguai", "grupo": "D"},
+    {"data": "2026-06-12", "casa": "Catar", "fora": "Suíça", "grupo": "B"},
+    {"data": "2026-06-13", "casa": "Brasil", "fora": "Marrocos", "grupo": "C"},
+    {"data": "2026-06-19", "casa": "Brasil", "fora": "Haiti", "grupo": "C"},
+    {"data": "2026-06-24", "casa": "Escócia", "fora": "Brasil", "grupo": "C"}
+  ]
+}

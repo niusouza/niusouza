@@ -1,0 +1,41 @@
+name: Prompts diários da Copa
+
+on:
+  schedule:
+    # 10:00 UTC = 07:00 de Brasília, todo dia durante a Copa (11/06 a 19/07)
+    - cron: '0 10 11-30 6 *'
+    - cron: '0 10 1-19 7 *'
+  workflow_dispatch:
+    inputs:
+      momento_viral:
+        description: 'Descreva o lance viral do dia (ex: árbitro brasileiro deu 3 vermelhos e virou meme pelo inglês)'
+        required: false
+        type: string
+
+jobs:
+  gerar-e-enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar prompts do dia
+        env:
+          MOMENTO_VIRAL: ${{ inputs.momento_viral }}
+        run: python3 gerar_prompts.py
+
+      - name: Ler assunto
+        id: assunto
+        run: echo "assunto=$(cat saida/assunto.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Enviar e-mail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USUARIO }}
+          password: ${{ secrets.GMAIL_SENHA_APP }}
+          subject: ${{ steps.assunto.outputs.assunto }}
+          to: ${{ secrets.GMAIL_USUARIO }}
+          from: Gerador de Prompts Copa <${{ secrets.GMAIL_USUARIO }}>
+          body: file://saida/email.txt
